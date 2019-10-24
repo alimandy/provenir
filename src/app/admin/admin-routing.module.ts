@@ -12,7 +12,9 @@ const routes: Routes = [
         path: 'login',
         component: LoginComponent
 
-    },   { 
+    }, 
+
+    { 
                 path: 'automobiles', 
                 component: AutomobilesComponent, 
                 canActivate: [AdminGuard]
