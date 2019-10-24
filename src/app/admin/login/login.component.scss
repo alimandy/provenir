@@ -1,0 +1,74 @@
+
+
+.hero {
+background:url('https://firebasestorage.googleapis.com/v0/b/tennisgamelove-2703c.appspot.com/o/beach3.JPG?alt=media&token=e3f3026d-c999-473a-992b-1c039791d23e'); 
+padding: 4rem 2rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+align-items: center;
+}
+
+.hero > * {
+color: #000;
+}
+
+.hero > h1 {
+font-size: 3.1rem;
+font-weight: 220;
+padding-bottom: 1rem;
+font-family: 'Shrikhand', cursive;
+letter-spacing: 3px;
+
+}
+
+.flex-form li {
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+max-width: 300px;
+margin-bottom:1rem; 
+font-family: 'Shrikhand', cursive;
+font-size: 1.3rem; 
+
+}
+
+
+.error-message {
+font-size: .9rem; 
+font-family: 'Shrikhand', cursive;
+color: red; 
+
+}
+
+
+.flex-form > li > label {
+
+flex: 1 0 120px;
+max-width: 100px;
+}
+
+
+.flex-form > li > label + *,
+{
+flex: 1 0 120px;
+}
+
+.flex-form li button {
+
+padding: 8px 16px;
+border: none;
+background: #333;
+color: #f2f2f2;
+text-transform: uppercase;
+letter-spacing: .09em;
+border-radius: 2px;
+font-family: 'Shrikhand', cursive;
+font-size:1.3rem; 
+}
+
+.flex-form li button:hover {
+
+  opacity: 0.7; 
+  cursor:pointer;
+}
